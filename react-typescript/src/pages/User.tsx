@@ -5,7 +5,7 @@ const User = (props:any)=>{
     console.log(props);
     return(
         <div>
-            This is user
+            <h1>This is user {props.match.params.userId}</h1> 
 
         </div>
     )
